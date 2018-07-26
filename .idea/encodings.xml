@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
-    <file url="file://$PROJECT_DIR$/《头号玩家》短评.csv" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/黎明之剑.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/crawler_result/《头号玩家》短评.csv" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/crawler_result/黎明之剑.txt" charset="GBK" />
   </component>
 </project>
