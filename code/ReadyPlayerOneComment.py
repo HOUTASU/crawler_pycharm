@@ -27,6 +27,7 @@ def parser_one_page(html, result):
         com['comment'] = comments[index].select('.short')[0].text.strip()
         result.append(com)
 
+
 def get_all_page(url, result):
     for i in range(10):
         next_page = url + '?start=' + str(i * 20)
@@ -34,7 +35,7 @@ def get_all_page(url, result):
 
 
 def write_to_file(result):
-    with open('result/《头号玩家》短评.csv', 'w', newline='', encoding='utf-8') as f:
+    with open(r'..\result\《头号玩家》短评.csv', 'w', newline='', encoding='utf-8') as f:
         fieldnames = ['user', 'time', 'comment']
         writer = csv.DictWriter(f, fieldnames=fieldnames)
         writer.writeheader()
@@ -44,7 +45,6 @@ def write_to_file(result):
             print(e)
 
 
-
 def main():
     url = 'https://movie.douban.com/subject/4920389/comments'
     result = list()
@@ -52,4 +52,5 @@ def main():
     write_to_file(result)
 
 
-main()
+if __name__ == '__main__':
+    main()

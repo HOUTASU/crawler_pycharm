@@ -1,5 +1,6 @@
 import requests
 from bs4 import BeautifulSoup
+import csv
 
 
 def douban_crawer(url, result):
@@ -16,15 +17,17 @@ def douban_crawer(url, result):
             english_title = titlt_list[1].text.strip().strip('/').replace('\xa0', '')
         else:
             english_title = 'None'
-        chinese_title = titlt_list[0].text
-        info = m.select('.info .bd p')[0].text
+        chinese_title = titlt_list[0].text.strip()
+        info = m.select('.info .bd p')[0].text.strip()
 
         quote = m.select('.quote .inq')
         if quote:
             q = quote[0].text
-        movie = list()
-        movie.append(english_title)
-        print("rank:{} name:{}".format(rank, chinese_title))
+        movie = {}
+        movie['rank'] = rank
+        movie['chinese_title'] = chinese_title
+        movie['english_title'] = english_title
+        movie['info'] = info
         result.append(movie)
 
     if soup.select('.next a'):
@@ -35,8 +38,19 @@ def douban_crawer(url, result):
     return result
 
 
-# //*[@id="content"]/div/div[1]/ol/li[1]/div/div[2]/div[1]/a/span[1]
+def write_to_file(result):
+    with open(r'..\result\Top250.csv', 'w', newline='', encoding='utf-8') as f:
+        fieldnames = ['rank', 'chinese_title', 'english_title', 'info']
+        writer = csv.DictWriter(f, fieldnames=fieldnames)
+        writer.writeheader()
+        try:
+            writer.writerows(result)
+        except Exception as e:
+            print(e)
 
-url = 'https://movie.douban.com/top250'
-result = list()
-re = douban_crawer(url, result)
+
+if __name__ == "__main__":
+    url = 'https://movie.douban.com/top250'
+    result = list()
+    result = douban_crawer(url, result)
+    write_to_file(result)

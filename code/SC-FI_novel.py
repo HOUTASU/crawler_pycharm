@@ -19,7 +19,7 @@ def parser_html(html, result):
         title = soup.select('.bookname h1')[0].text
     except:
         print('已到最后一页')
-        return  ''
+        return ''
 
     content = soup.select('#content')[0].text.strip().replace('\xa0', '')
 
@@ -35,9 +35,10 @@ def main():
     url = 'https://www.bequge.com/11_11147/13169261.html'
     result = list()
     get_html(url, result)
-    with open('result/黎明之剑.txt', 'w', encoding='utf-8') as f:
+    with open(r'..\result\黎明之剑.txt', 'w', encoding='utf-8') as f:
         for i in result:
             f.write(i)
 
 
-main()
+if __name__ == '__main__':
+    main()
