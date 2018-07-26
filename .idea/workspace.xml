@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a1451d2-dd95-4693-a1d3-3049eb6c1c2a" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/code/hero_picture.py" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/code/ReadyPlayerOneComment.py" afterPath="$PROJECT_DIR$/code/ReadyPlayerOneComment.py" />
-      <change beforePath="$PROJECT_DIR$/code/SC-FI_novel.py" afterPath="$PROJECT_DIR$/code/SC-FI_novel.py" />
-      <change beforePath="$PROJECT_DIR$/code/douban.py" afterPath="$PROJECT_DIR$/code/douban.py" />
+      <change beforePath="$PROJECT_DIR$/code/hero_picture.py" afterPath="$PROJECT_DIR$/code/hero_picture.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,30 +16,29 @@
     <SUITE FILE_PATH="coverage/crawler$SC_FI_novel.coverage" NAME="SC-FI_novel Coverage Results" MODIFIED="1532596989710" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/crawler$douban.coverage" NAME="douban Coverage Results" MODIFIED="1532602891001" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code" />
     <SUITE FILE_PATH="coverage/crawler$test.coverage" NAME="test Coverage Results" MODIFIED="1532570394830" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/crawler$hero_picture.coverage" NAME="hero_picture Coverage Results" MODIFIED="1532605199855" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code" />
     <SUITE FILE_PATH="coverage/crawler$ReadyPlayerOneComment.coverage" NAME="ReadyPlayerOneComment Coverage Results" MODIFIED="1532596380476" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="SC-FI_novel.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/code/SC-FI_novel.py">
+      <file leaf-file-name="hero_picture.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/code/hero_picture.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="164">
-              <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+            <state relative-caret-position="251">
+              <caret line="36" column="50" lean-forward="true" selection-start-line="36" selection-start-column="50" selection-end-line="36" selection-end-column="50" />
               <folding>
-                <element signature="e#0#15#0" expanded="true" />
+                <element signature="e#89#104#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ReadyPlayerOneComment.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/code/ReadyPlayerOneComment.py">
+      <file leaf-file-name="黎明之剑.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/result/黎明之剑.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="251">
-              <caret line="56" column="0" lean-forward="true" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -50,7 +46,7 @@
       <file leaf-file-name="douban.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/code/douban.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
+            <state relative-caret-position="325">
               <caret line="50" column="0" lean-forward="true" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
@@ -59,41 +55,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Top250.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/result/Top250.csv">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="501" column="0" lean-forward="true" selection-start-line="501" selection-start-column="0" selection-end-line="501" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="header" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resource/header">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="herolist.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resource/herolist.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="4" column="2" lean-forward="false" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="hero_picture.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/code/hero_picture.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+            <state relative-caret-position="228">
+              <caret line="571" column="14" lean-forward="false" selection-start-line="571" selection-start-column="5" selection-end-line="571" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -147,13 +113,14 @@
         <option value="$PROJECT_DIR$/《头号玩家》短评.csv" />
         <option value="$PROJECT_DIR$/crawler_code/SC-FI_novel.py" />
         <option value="$USER_HOME$/Downloads/herolist.json" />
-        <option value="$PROJECT_DIR$/code/hero_picture.py" />
         <option value="$PROJECT_DIR$/code/Top250.csv" />
         <option value="$PROJECT_DIR$/result/Top250.csv" />
         <option value="$PROJECT_DIR$/hero_picture.py" />
         <option value="$PROJECT_DIR$/code/douban.py" />
         <option value="$PROJECT_DIR$/code/ReadyPlayerOneComment.py" />
         <option value="$PROJECT_DIR$/code/SC-FI_novel.py" />
+        <option value="$PROJECT_DIR$/resource/herolist.json" />
+        <option value="$PROJECT_DIR$/code/hero_picture.py" />
       </list>
     </option>
   </component>
@@ -164,8 +131,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="599" />
-    <option name="y" value="78" />
+    <option name="x" value="183" />
+    <option name="y" value="101" />
     <option name="width" value="1290" />
     <option name="height" value="861" />
   </component>
@@ -244,7 +211,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.douban">
+  <component name="RunManager" selected="Python.hero_picture">
     <configuration name="ReadyPlayerOneComment" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -302,6 +269,25 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="hero_picture" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/code" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="crawler" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/code/hero_picture.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -321,18 +307,20 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <list size="4">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.test" />
       <item index="1" class="java.lang.String" itemvalue="Python.SC-FI_novel" />
       <item index="2" class="java.lang.String" itemvalue="Python.ReadyPlayerOneComment" />
       <item index="3" class="java.lang.String" itemvalue="Python.douban" />
+      <item index="4" class="java.lang.String" itemvalue="Python.hero_picture" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Python.douban" />
-        <item index="1" class="java.lang.String" itemvalue="Python.SC-FI_novel" />
-        <item index="2" class="java.lang.String" itemvalue="Python.ReadyPlayerOneComment" />
-        <item index="3" class="java.lang.String" itemvalue="Python.test" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python.hero_picture" />
+        <item index="1" class="java.lang.String" itemvalue="Python.douban" />
+        <item index="2" class="java.lang.String" itemvalue="Python.SC-FI_novel" />
+        <item index="3" class="java.lang.String" itemvalue="Python.ReadyPlayerOneComment" />
+        <item index="4" class="java.lang.String" itemvalue="Python.test" />
       </list>
     </recent_temporary>
   </component>
@@ -371,11 +359,18 @@
       <option name="project" value="LOCAL" />
       <updated>1532600975466</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="文件分类更新">
+      <created>1532603040002</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1532603040002</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="599" y="78" width="1290" height="861" extended-state="0" />
+    <frame x="183" y="101" width="1290" height="861" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -435,7 +430,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="头号玩家评论抓取" />
     <MESSAGE value="文件分类更新" />
-    <option name="LAST_COMMIT_MESSAGE" value="文件分类更新" />
+    <MESSAGE value="王者荣耀英雄皮肤图片爬取" />
+    <option name="LAST_COMMIT_MESSAGE" value="王者荣耀英雄皮肤图片爬取" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -586,14 +582,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resource/header">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/code/Top250.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -618,40 +606,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resource/herolist.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="2" lean-forward="false" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/code/douban.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="50" column="0" lean-forward="true" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/result/Top250.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="501" column="0" lean-forward="true" selection-start-line="501" selection-start-column="0" selection-end-line="501" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/code/hero_picture.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/code/ReadyPlayerOneComment.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="251">
@@ -664,10 +618,62 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/code/SC-FI_novel.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+        <state relative-caret-position="-460">
+          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resource/header">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/result/Top250.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="501" column="0" lean-forward="true" selection-start-line="501" selection-start-column="0" selection-end-line="501" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resource/herolist.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="571" column="14" lean-forward="false" selection-start-line="571" selection-start-column="5" selection-end-line="571" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/douban.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="50" column="0" lean-forward="true" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/result/黎明之剑.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/hero_picture.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="36" column="50" lean-forward="true" selection-start-line="36" selection-start-column="50" selection-end-line="36" selection-end-column="50" />
+          <folding>
+            <element signature="e#89#104#0" expanded="true" />
           </folding>
         </state>
       </provider>
